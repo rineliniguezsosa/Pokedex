@@ -5,7 +5,7 @@ export function Approuter() {
   return (
     <>
     <Routes>
-
+        <Route path="/"></Route>
     </Routes>
     </>
   )
