@@ -1,4 +1,4 @@
-import { Formik,Form } from 'formik'
+import { Formik,Form,Field } from 'formik'
 import { Titlepokedex,Container,Divtitle,Formcontainer } from '../../assets'
 
 export const Loginpage = () => {
@@ -13,7 +13,7 @@ export const Loginpage = () => {
           <Formcontainer>
               <Formik>
                 <Form>
-                  
+
                 </Form>
               </Formik>
           </Formcontainer>
