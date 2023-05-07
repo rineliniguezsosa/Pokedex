@@ -10,6 +10,9 @@ export const Loginpage = () => {
             <Titlepokedex>Pokedex</Titlepokedex>
           </Divtitle>
 
+          <Formcontainer>
+
+          </Formcontainer>
       </Container>
     </>
   )
