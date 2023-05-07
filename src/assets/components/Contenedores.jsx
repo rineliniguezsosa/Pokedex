@@ -21,4 +21,8 @@ export const Divtitle = styled.div`
 export const Formcontainer = styled.div`
     width:200px;
     border: 1px red solid;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
