@@ -16,6 +16,7 @@ export const Loginpage = () => {
                   <Field 
                   type="email"
                   name="email"
+                  placeholder="Correo Electronico"
                   ></Field>
                 </Form>
               </Formik>
