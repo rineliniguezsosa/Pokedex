@@ -15,6 +15,7 @@ export const Loginpage = () => {
                 <Form>
                   <Field 
                   type="email"
+                  name="email"
                   ></Field>
                 </Form>
               </Formik>
