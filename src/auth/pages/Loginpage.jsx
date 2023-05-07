@@ -1,9 +1,17 @@
 import { Formik,Form } from 'formik'
-import { Titlepokedex } from '../../assets'
+import { Titlepokedex,Container,Divtitle } from '../../assets'
 
 export const Loginpage = () => {
   return (
-    <div><Titlepokedex>Pokedex</Titlepokedex></div>
+    <>
+      <Container>
+        
+          <Divtitle>
+            <Titlepokedex>Pokedex</Titlepokedex>
+          </Divtitle>
+
+      </Container>
+    </>
   )
 }
 
