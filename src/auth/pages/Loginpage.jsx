@@ -3,7 +3,7 @@ import { Titlepokedex } from '../../assets'
 
 export const Loginpage = () => {
   return (
-    <div><Titlepokedex>Loginpage</Titlepokedex></div>
+    <div><Titlepokedex>Pokedex</Titlepokedex></div>
   )
 }
 
