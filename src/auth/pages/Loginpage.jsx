@@ -13,7 +13,9 @@ export const Loginpage = () => {
           <Formcontainer>
               <Formik>
                 <Form>
-                  <Field></Field>
+                  <Field 
+                  type="email"
+                  ></Field>
                 </Form>
               </Formik>
           </Formcontainer>
