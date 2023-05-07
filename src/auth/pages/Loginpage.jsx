@@ -18,6 +18,12 @@ export const Loginpage = () => {
                   name="email"
                   placeholder="Correo Electronico"
                   ></Field>
+
+                  <Field 
+                  type="password"
+                  name="password"
+                  placeholder="Contraseña"
+                  ></Field>
                 </Form>
               </Formik>
           </Formcontainer>
