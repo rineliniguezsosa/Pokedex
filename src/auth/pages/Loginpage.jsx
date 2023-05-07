@@ -11,7 +11,9 @@ export const Loginpage = () => {
           </Divtitle>
 
           <Formcontainer>
-
+              <Formik>
+                
+              </Formik>
           </Formcontainer>
       </Container>
     </>
