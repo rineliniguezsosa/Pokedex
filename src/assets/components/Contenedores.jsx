@@ -17,3 +17,7 @@ export const Divtitle = styled.div`
     border:1px red solid;
     height: auto;
 `
+
+export const Formcontainer = styled.div`
+   
+`
