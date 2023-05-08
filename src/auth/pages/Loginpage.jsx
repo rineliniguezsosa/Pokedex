@@ -37,12 +37,15 @@ export const Loginpage = () => {
                     ></Field>
                     <ErrorMessage name="email"></ErrorMessage>
                   </div>
-                  <Field 
-                  type="password"
-                  name="password"
-                  placeholder="Contraseña"
-                  ></Field>
-
+                  
+                  <div>
+                    <Field 
+                    type="password"
+                    name="password"
+                    placeholder="Contraseña"
+                    ></Field>
+                    <ErrorMessage name="password"></ErrorMessage>
+                  </div>
                   <Submitbutton>Iniciar Sesión</Submitbutton>
                 </Form>
               </Formik>
