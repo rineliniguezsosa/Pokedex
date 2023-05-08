@@ -1,4 +1,4 @@
-import { Formik,Form,Field } from 'formik'
+import { Formik,Form,Field,ErrorMessage } from 'formik'
 import { Titlepokedex,Container,Divtitle,Formcontainer,Submitbutton } from '../../assets'
 import * as Yup from 'yup'
 
