@@ -29,12 +29,14 @@ export const Loginpage = () => {
           <Formcontainer>
               <Formik initialValues={initialValues} onSubmit={Submitform} validationSchema={validationSchema}>
                 <Form>
-                  <Field 
-                  type="email"
-                  name="email"
-                  placeholder="Correo Electronico"
-                  ></Field>
-
+                  <div>
+                    <Field 
+                    type="email"
+                    name="email"
+                    placeholder="Correo Electronico"
+                    ></Field>
+                    <ErrorMessage name="email"></ErrorMessage>
+                  </div>
                   <Field 
                   type="password"
                   name="password"
