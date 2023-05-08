@@ -9,6 +9,10 @@ export const Loginpage = () => {
     password:''
   }
 
+  const validationSchema = Yup.object({
+
+  })
+  
   const Submitform = (values) =>{
     console.log(values)
   }
