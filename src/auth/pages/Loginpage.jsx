@@ -24,6 +24,8 @@ export const Loginpage = () => {
                   name="password"
                   placeholder="Contraseña"
                   ></Field>
+
+                  <Submitbutton>Iniciar Sesión</Submitbutton>
                 </Form>
               </Formik>
           </Formcontainer>
