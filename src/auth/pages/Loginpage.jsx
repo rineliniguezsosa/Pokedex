@@ -11,6 +11,7 @@ export const Loginpage = () => {
 
   const validationSchema = Yup.object({
     email:Yup.string().email('El correo debe de contener un @').required('El email es requerido'),
+    password:Yup.string().length(6,'La contraseña debe de contener mas de 6 letras').required('El password es requerido')
   })
 
   const Submitform = (values) =>{
