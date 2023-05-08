@@ -27,7 +27,7 @@ export const Loginpage = () => {
           </Divtitle>
 
           <Formcontainer>
-              <Formik initialValues={initialValues} onSubmit={Submitform} validationSchema={validateYupSchema}>
+              <Formik initialValues={initialValues} onSubmit={Submitform} validationSchema={validationSchema}>
                 <Form>
                   <Field 
                   type="email"
