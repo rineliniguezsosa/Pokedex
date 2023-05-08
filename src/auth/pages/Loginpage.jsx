@@ -16,6 +16,7 @@ export const Loginpage = () => {
 
   const Submitform = (values,onSubmitProps) =>{
     console.log(values)
+    onSubmitProps.resetForm()
   }
   return (
     <>
