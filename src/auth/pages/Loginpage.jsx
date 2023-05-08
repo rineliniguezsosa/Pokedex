@@ -19,6 +19,9 @@ export const Loginpage = () => {
 
   const Submitform = (values,onSubmitProps) =>{
     dispatch(login(values))
+
+    localStorage.setItem('usuario',JSON.stringify(values))
+
     onSubmitProps.resetForm()
   }
   return (
