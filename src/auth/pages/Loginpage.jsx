@@ -14,7 +14,7 @@ export const Loginpage = () => {
     password:Yup.string().length(6,'La contraseña debe de contener mas de 6 letras').required('El password es requerido')
   })
 
-  const Submitform = (values) =>{
+  const Submitform = (values,onSubmitProps) =>{
     console.log(values)
   }
   return (
