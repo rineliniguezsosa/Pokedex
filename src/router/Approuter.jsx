@@ -9,12 +9,11 @@ export function Approuter() {
   return (
     <>
     <Routes>
-        { autenticado 
-        ?
-        <Route path="/pokemon*" element={<Pokemonroutes/>}></Route>
-        :
-        <Route path="/*" element={<Loginpage/>}></Route>
-        }
+       
+       <Route path="/" element={<Loginpage/>}></Route>
+        
+       <Route path="/pokemon*" element={<Pokedex/>}></Route>
+        
     </Routes>
     </>
   )
