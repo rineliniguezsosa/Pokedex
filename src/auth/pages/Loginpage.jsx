@@ -7,7 +7,7 @@ export const Loginpage = () => {
     email:'',
     password:''
   }
-  
+
   return (
     <>
       <Container>
@@ -17,7 +17,7 @@ export const Loginpage = () => {
           </Divtitle>
 
           <Formcontainer>
-              <Formik>
+              <Formik initialValues={initialValues}>
                 <Form>
                   <Field 
                   type="email"
