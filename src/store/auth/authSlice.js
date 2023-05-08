@@ -4,7 +4,9 @@ import { createSlice } from '@reduxjs/toolkit'
 export const authSlice = createSlice({
   name: 'auth',
   initialState:{
-    counter:0
+    autenticado:false,
+    email:null,
+    password:null
   },
   reducers: {
     increment: (state) => {
