@@ -10,7 +10,9 @@ export const authSlice = createSlice({
   },
   reducers: {
     login: (state,{payload}) => {
-      console.log(payload)
+      state.autenticado = true;
+      state.email = payload.email;
+      state.password = payload.password;
     },
   },
 })
