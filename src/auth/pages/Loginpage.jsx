@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux'
 import * as Yup from 'yup'
 
 export const Loginpage = () => {
+  const dispatch = useDispatch()
 
   const initialValues = {
     email:'',
