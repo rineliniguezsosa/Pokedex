@@ -1,7 +1,7 @@
 import { Routes,Route } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { Loginpage } from '../auth'
-import { Pokemonroutes } from '../pokedex/routes/Pokemonroutes'
+import { Pokedex } from '../pokedex/pages/Pokedex'
 
 export function Approuter() {
   const { autenticado } = useSelector(state => state.auth)
@@ -11,9 +11,9 @@ export function Approuter() {
     <Routes>
         { autenticado 
         ?
-        <Route path="/pokemon/*" element={<Pokemonroutes/>}></Route>
+        <Route path="/pokemon*" element={<Pokemonroutes/>}></Route>
         :
-        <Route path="/" element={<Loginpage/>}></Route>
+        <Route path="/*" element={<Loginpage/>}></Route>
         }
     </Routes>
     </>
