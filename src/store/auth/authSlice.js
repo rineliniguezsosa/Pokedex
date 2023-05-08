@@ -10,7 +10,7 @@ export const authSlice = createSlice({
   },
   reducers: {
     login: (state,action) => {
-      state.counter += 1
+      console.log(action)
     },
   },
 })
