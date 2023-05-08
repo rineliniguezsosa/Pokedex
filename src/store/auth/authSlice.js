@@ -9,12 +9,9 @@ export const authSlice = createSlice({
     password:null
   },
   reducers: {
-    increment: (state) => {
+    login: (state,action) => {
       state.counter += 1
     },
-    decrementby:(state,action) =>{
-        state.counter+=action.payload
-    }
   },
 })
 
