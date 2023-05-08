@@ -10,9 +10,9 @@ export const Loginpage = () => {
   }
 
   const validationSchema = Yup.object({
-
+    email:Yup.string().email('El correo debe de contener un @').required('El email es requerido'),
   })
-  
+
   const Submitform = (values) =>{
     console.log(values)
   }
