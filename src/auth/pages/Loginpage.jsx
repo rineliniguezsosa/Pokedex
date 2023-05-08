@@ -2,6 +2,12 @@ import { Formik,Form,Field } from 'formik'
 import { Titlepokedex,Container,Divtitle,Formcontainer,Submitbutton } from '../../assets'
 
 export const Loginpage = () => {
+
+  const initialValues = {
+    email:'',
+    password:''
+  }
+  
   return (
     <>
       <Container>
