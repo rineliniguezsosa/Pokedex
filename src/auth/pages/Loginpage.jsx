@@ -1,5 +1,6 @@
 import { Formik,Form,Field } from 'formik'
 import { Titlepokedex,Container,Divtitle,Formcontainer,Submitbutton } from '../../assets'
+import * as Yup from 'yup'
 
 export const Loginpage = () => {
 
