@@ -9,7 +9,7 @@ export const Loginpage = () => {
   }
 
   const Submitform = (values) =>{
-
+    console.log(values)
   }
   return (
     <>
