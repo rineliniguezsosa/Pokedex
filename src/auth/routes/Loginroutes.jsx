@@ -4,7 +4,7 @@ import { Loginpage } from "../pages/Loginpage"
 export const Loginroutes = () => {
   return (
     <Routes>
-
+        <Route path="/" element={<Loginpage/>}></Route>
     </Routes>
   )
 }
