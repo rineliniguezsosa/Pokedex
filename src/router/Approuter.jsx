@@ -1,4 +1,4 @@
-import { Routes,Route } from 'react-router-dom'
+import { Routes,Route,Navigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { Pokemonroutes } from '../pokedex/routes/Pokemonroutes'
 import { Loginroutes } from '../auth/routes/Loginroutes'
