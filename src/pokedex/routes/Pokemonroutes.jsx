@@ -1,5 +1,5 @@
 import { Routes,Route,Navigate } from 'react-router-dom'
-import { Pokedex } from '../pages/Pokedex'
+import { Pokemon } from '../pages/Pokemon'
 
 export const Pokemonroutes = () => {
   return (
