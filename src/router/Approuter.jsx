@@ -1,6 +1,5 @@
 import { Routes,Route } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import { Pokedex } from '../pokedex/pages/Pokedex'
 import { Pokemonroutes } from '../pokedex/routes/Pokemonroutes'
 import { Loginroutes } from '../auth/routes/Loginroutes'
 
