@@ -4,7 +4,7 @@ import { Pokemon } from '../pages/Pokemon'
 export const Pokemonroutes = () => {
   return (
     <Routes>
-        <Route path="pokemon" element={<Pokedex/>}></Route>
+        <Route path="pokemon" element={<Pokemon/>}></Route>
 
         <Route path="/*" element={<Navigate to="/pokemon"/>}></Route>
     </Routes>
