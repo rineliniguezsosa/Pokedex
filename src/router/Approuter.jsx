@@ -15,6 +15,7 @@ export function Approuter() {
        :
        <Route path="/*" element={<Loginroutes/>}></Route>
        }
+       <Route path="/*" element={<Navigate to="/"/>}></Route>
     </Routes>
     </>
   )
