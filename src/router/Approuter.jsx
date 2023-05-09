@@ -10,11 +10,12 @@ export function Approuter() {
   return (
     <>
     <Routes>
-       
+       {autenticado
+       ?
        <Route path="/*" element={<Pokemonroutes/>}></Route>
-        
+       :
        <Route path="/*" element={<Loginroutes/>}></Route>
-        
+       }
     </Routes>
     </>
   )
