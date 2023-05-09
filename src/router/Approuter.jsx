@@ -13,7 +13,7 @@ export function Approuter() {
        
        <Route path="/" element={<Pokemonroutes/>}></Route>
         
-       <Route path="/pokemon" element={<Loginroutes/>}></Route>
+       <Route path="/*" element={<Loginroutes/>}></Route>
         
     </Routes>
     </>
