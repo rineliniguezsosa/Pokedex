@@ -1,7 +1,9 @@
 
 
-export const Pokedex = () => {
+export const Pokemon = () => {
   return (
-    <div>Pokedex</div>
+    <>
+        Pokemon
+    </>
   )
 }
