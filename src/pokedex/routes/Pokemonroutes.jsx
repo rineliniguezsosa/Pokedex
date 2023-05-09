@@ -5,6 +5,8 @@ export const Pokemonroutes = () => {
   return (
     <Routes>
         <Route path="pokedex" element={<Pokedex/>}></Route>
+
+        <Route path="/*" element={<Navigate to="/pokemon"/>}></Route>
     </Routes>
   )
 }
