@@ -5,5 +5,5 @@ export const Titlepokedex = styled.h1`
     font-size: 30px;
 `
 export const Pokedextitle = styled(Titlepokedex)`
-    font-size: 60px;
+    font-size: 30px;
 `
