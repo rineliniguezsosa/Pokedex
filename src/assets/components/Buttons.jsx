@@ -19,4 +19,5 @@ export const Botones = styled.button`
 `
 export const Buttoncuadricula = styled(Botones)`
   background-color: #FFFFFF;
+  color: #47525E;
 `
