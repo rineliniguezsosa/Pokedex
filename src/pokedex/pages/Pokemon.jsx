@@ -10,7 +10,9 @@ export const Pokemon = () => {
             </Childcontainer>
 
             <Formbox>
-
+            <Form>
+              <Inputform/>
+            </Form>
             </Formbox>    
         </Pokedexcontainer>
     </Pokemoncontainer>
