@@ -10,10 +10,16 @@ export const useForm = (initialForm = {}) =>{
             ...formState,
             [name]:value
         })
-    }  
+    }
+
+    const onSubmitform = (event) =>{
+        event.preventDefault()
+        console.log(formState)
+    } 
     return {
         ...formState,
         formState,
-        onInputchange
+        onInputchange,
+        onSubmitform
     }
 }
