@@ -3,7 +3,7 @@ import { useForm } from "../../hooks"
 
 
 export const Pokemon = () => {
-  const { formState,onInputchange } = useForm({pokemon:''})
+  const { form,onInputchange } = useForm({pokemon:''})
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
@@ -13,7 +13,7 @@ export const Pokemon = () => {
 
             <Formbox>
               <Form>
-                <Inputform value={formState} onChange={onInputchange}/>
+                <Inputform value={form} onChange={onInputchange}/>
               </Form>
 
               <div>
