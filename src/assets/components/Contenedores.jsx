@@ -43,3 +43,9 @@ export const Childcontainer = styled.div`
     padding:10px;
     box-sizing:border-box;
 `
+export const Formbox = styled(Childcontainer)`
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+`
