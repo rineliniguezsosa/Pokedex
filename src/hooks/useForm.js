@@ -14,7 +14,8 @@ export const useForm = (initialForm = {}) =>{
 
     const onSubmitform = (event) =>{
         event.preventDefault()
-        console.log(formState)
+
+        if(formState.pokemon.trim().length < 1){ return; }
     } 
     return {
         ...formState,
