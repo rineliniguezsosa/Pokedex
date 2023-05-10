@@ -37,3 +37,9 @@ export const Pokedexcontainer = styled.div`
     height:500px;
     border:1px yellow solid;
 `
+export const Childcontainer = styled.div`
+    width:100%;
+    border:1px pink solid;
+    padding:10px;
+    box-sizing:border-box;
+`
