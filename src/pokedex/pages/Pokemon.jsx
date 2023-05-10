@@ -1,3 +1,4 @@
+import { Pokedexcontainer } from "../../assets"
 
 
 export const Pokemon = () => {
