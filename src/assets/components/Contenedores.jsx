@@ -26,3 +26,8 @@ export const Formcontainer = styled.div`
     justify-content: center;
     align-items: center;
 `
+
+export const Pokedexcontainer = styled(Formcontainer)`
+    width:1650px;
+    height: 650px;    
+`
