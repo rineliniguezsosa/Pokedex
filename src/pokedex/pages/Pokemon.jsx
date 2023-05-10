@@ -4,6 +4,10 @@ import { useForm } from "../../hooks"
 
 export const Pokemon = () => {
   const { form,onInputchange } = useForm({pokemon:''})
+
+  const onSubmitform = (event) =>{
+    
+  }
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
@@ -12,7 +16,7 @@ export const Pokemon = () => {
             </Childcontainer>
 
             <Formbox>
-              <Form>
+              <Form onSubmit={onSubmitform}>
                 <Inputform value={form} onChange={onInputchange}/>
               </Form>
 
