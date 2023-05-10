@@ -1,4 +1,4 @@
-import { Pokemoncontainer,Pokedextitle,Pokedexcontainer } from "../../assets"
+import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer } from "../../assets"
 
 
 export const Pokemon = () => {
