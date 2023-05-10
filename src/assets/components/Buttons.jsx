@@ -10,7 +10,7 @@ export const Submitbutton = styled.button.attrs({
   margin:  0.5em 1em;
   padding: 0.25em 1em;
 `
-export const Buttonlista = styled.button`
+export const Botones = styled.button`
   background-color: #47525E;
   border-radius: 3px;
   border: 2px solid #47525E;
