@@ -1,4 +1,4 @@
-import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox } from "../../assets"
+import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform } from "../../assets"
 
 
 export const Pokemon = () => {
@@ -10,7 +10,7 @@ export const Pokemon = () => {
             </Childcontainer>
 
             <Formbox>
-              
+
             </Formbox>    
         </Pokedexcontainer>
     </Pokemoncontainer>
