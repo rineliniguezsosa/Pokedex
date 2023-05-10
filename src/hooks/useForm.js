@@ -7,6 +7,6 @@ export const useForm = (initialState = {}) =>{
         console.log(event)
     }
     return {
-
+        onInputchange
     }
 }
