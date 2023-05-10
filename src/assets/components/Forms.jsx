@@ -5,7 +5,8 @@ export const Form = styled.form`
 `
 export const Inputform = styled.input.attrs({
     placeholder:'Buscar pokemon',
-    type:'text'
+    type:'text',
+    name:'pokemon'
 })`
     width:250px;
     border-radius:3px #C6CDD5;
