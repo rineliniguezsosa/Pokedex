@@ -18,5 +18,5 @@ export const Botones = styled.button`
   padding: 2px 30px;
 `
 export const Buttoncuadricula = styled(Botones)`
-
+  background-color: #FFFFFF;
 `
