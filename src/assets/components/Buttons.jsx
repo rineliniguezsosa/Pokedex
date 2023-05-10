@@ -15,5 +15,5 @@ export const Buttonlista = styled.button`
   border-radius: 3px;
   border: 2px solid #47525E;
   color: white;
-  padding: 5px 5px;
+  padding: 2px 30px;
 `
