@@ -4,7 +4,7 @@ export const useForm = (initialState = {}) =>{
     const [form, setForm] = useState(initialState)
 
     const onInputchange = (event) =>{
-        console.log(event)
+        const {name,value} = event.target
     }
     return {
         onInputchange
