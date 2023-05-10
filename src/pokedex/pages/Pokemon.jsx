@@ -5,7 +5,9 @@ export const Pokemon = () => {
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
-          
+            <Childcontainer>
+              
+            </Childcontainer>
         </Pokedexcontainer>
     </Pokemoncontainer>
   )
