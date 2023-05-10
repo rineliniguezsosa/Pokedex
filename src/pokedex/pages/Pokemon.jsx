@@ -7,7 +7,11 @@ export const Pokemon = () => {
         <Pokedexcontainer>
             <Childcontainer>
               <Pokedextitle>Pokédex</Pokedextitle>
-            </Childcontainer>    
+            </Childcontainer>
+
+            <Formbox>
+              
+            </Formbox>    
         </Pokedexcontainer>
     </Pokemoncontainer>
   )
