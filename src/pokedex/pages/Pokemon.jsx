@@ -3,6 +3,7 @@ import { useForm } from "../../hooks"
 
 
 export const Pokemon = () => {
+  const {} = useForm({pokemon:''})
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
