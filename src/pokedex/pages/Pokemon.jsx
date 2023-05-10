@@ -3,7 +3,7 @@ import { useForm } from "../../hooks"
 
 
 export const Pokemon = () => {
-  const {} = useForm({pokemon:''})
+  const { onInputchange } = useForm({pokemon:''})
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
