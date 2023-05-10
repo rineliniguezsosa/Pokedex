@@ -1,6 +1,6 @@
 
-export const useForm = () =>{
+export const useForm = (initialState = {}) =>{
     return {
-        
+
     }
 }
