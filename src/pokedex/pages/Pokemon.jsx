@@ -6,7 +6,8 @@ export const Pokemon = () => {
   const { form,onInputchange } = useForm({pokemon:''})
 
   const onSubmitform = (event) =>{
-    
+    event.preventDefault()
+    console.log(event)
   }
   return (
     <Pokemoncontainer>
