@@ -1,4 +1,5 @@
 import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula } from "../../assets"
+import { useForm } from "../../hooks"
 
 
 export const Pokemon = () => {
