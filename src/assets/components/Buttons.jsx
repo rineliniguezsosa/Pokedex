@@ -17,3 +17,6 @@ export const Botones = styled.button`
   color: white;
   padding: 2px 30px;
 `
+export const Buttoncuadricula = styled(Botones)`
+
+`
