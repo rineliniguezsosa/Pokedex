@@ -10,3 +10,6 @@ export const Submitbutton = styled.button.attrs({
   margin:  0.5em 1em;
   padding: 0.25em 1em;
 `
+export const Buttonlista = styled.button`
+
+`
