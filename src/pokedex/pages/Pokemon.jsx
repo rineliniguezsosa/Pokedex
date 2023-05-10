@@ -15,7 +15,7 @@ export const Pokemon = () => {
               </Form>
 
               <div>
-                <Botones>Lista</Botones>
+                <Botones>Lista</Botones><Buttoncuadricula>Cuadricula</Buttoncuadricula>
               </div>
             </Formbox>    
         </Pokedexcontainer>
