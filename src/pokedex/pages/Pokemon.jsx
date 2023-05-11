@@ -1,4 +1,4 @@
-import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell  } from "../../assets"
+import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell,Tablecellinh   } from "../../assets"
 import { useForm } from "../../hooks"
 
 
