@@ -34,6 +34,9 @@ export const Pokemon = () => {
                         <th style={{maxWidth:'5%',height:'70px'}}></th>
                     </tr>
                   </thead>
+                  <tbody>
+                    
+                  </tbody>
                 </Table>
             </Childcontainer>   
         </Pokedexcontainer>
