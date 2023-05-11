@@ -1,4 +1,4 @@
-import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell } from "../../assets"
+import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell  } from "../../assets"
 import { useForm } from "../../hooks"
 
 
@@ -35,7 +35,9 @@ export const Pokemon = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    
+                    <tr>
+
+                    </tr>
                   </tbody>
                 </Table>
             </Childcontainer>   
