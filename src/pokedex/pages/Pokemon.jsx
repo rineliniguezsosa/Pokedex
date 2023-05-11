@@ -23,7 +23,9 @@ export const Pokemon = () => {
             </Formbox>
 
             <Childcontainer>
-              
+                <Table>
+                  
+                </Table>
             </Childcontainer>   
         </Pokedexcontainer>
     </Pokemoncontainer>
