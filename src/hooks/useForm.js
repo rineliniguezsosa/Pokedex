@@ -17,7 +17,9 @@ export const useForm = (initialForm = {}) =>{
         event.preventDefault()
 
         if(formState.pokemon.trim().length < 1){ return; }
-    } 
+
+        event.target.reset();
+    }
     return {
         ...formState,
         formState,
