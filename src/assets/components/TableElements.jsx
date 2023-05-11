@@ -7,3 +7,6 @@ export const Table = styled.table`
     border-radius:2px;
     border-collapse:collapse;
 `
+export const Tablecell = styled.th`
+
+`
