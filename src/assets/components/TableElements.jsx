@@ -13,3 +13,6 @@ export const Tablecell = styled.th`
     height:70px;
     background-color:#EFF2F7;
 `
+export const Tablecellinh = styled(Tablecell)`
+
+`
