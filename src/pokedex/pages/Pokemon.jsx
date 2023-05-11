@@ -36,7 +36,12 @@ export const Pokemon = () => {
                   </thead>
                   <tbody>
                     <tr>
-
+                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh></Tablecellinh>
                     </tr>
                   </tbody>
                 </Table>
