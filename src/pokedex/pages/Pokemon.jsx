@@ -25,7 +25,9 @@ export const Pokemon = () => {
             <Childcontainer>
                 <Table>
                   <thead>
-                    
+                    <tr>
+                      
+                    </tr>
                   </thead>
                 </Table>
             </Childcontainer>   
