@@ -14,5 +14,6 @@ export const Tablecell = styled.th`
     background-color:#EFF2F7;
 `
 export const Tablecellinh = styled(Tablecell)`
-
+    border-bottom:1px #E1E7EE solid;
+    background-color:white;
 `
