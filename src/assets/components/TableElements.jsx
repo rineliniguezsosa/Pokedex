@@ -8,5 +8,8 @@ export const Table = styled.table`
     border-collapse:collapse;
 `
 export const Tablecell = styled.th`
-
+    max-width:5%;
+    border:none;
+    height:70px;
+    background-color:#EFF2F7;
 `
