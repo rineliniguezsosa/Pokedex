@@ -26,7 +26,12 @@ export const Pokemon = () => {
                 <Table>
                   <thead>
                     <tr>
-
+                        <Tablecell>#</Tablecell>
+                        <Tablecell>Nombre</Tablecell>
+                        <Tablecell>Vista</Tablecell>
+                        <Tablecell>Tipos</Tablecell>
+                        <Tablecell>Habilidades</Tablecell>
+                        <th style={{maxWidth:'5%',height:'70px'}}></th>
                     </tr>
                   </thead>
                 </Table>
