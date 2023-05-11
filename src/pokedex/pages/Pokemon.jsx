@@ -24,7 +24,9 @@ export const Pokemon = () => {
 
             <Childcontainer>
                 <Table>
-                  
+                  <thead>
+                    
+                  </thead>
                 </Table>
             </Childcontainer>   
         </Pokedexcontainer>
