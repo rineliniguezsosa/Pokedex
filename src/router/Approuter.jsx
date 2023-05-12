@@ -4,6 +4,7 @@ import { Loginroutes } from '../auth/routes/Loginroutes'
 import { useCheckauth } from '../hooks/useCheckauth'
 
 export function Approuter() {
+  const { status } = useCheckauth()
   return (
     <>
     <Routes>
