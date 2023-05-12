@@ -8,7 +8,7 @@ export const useCheckauth = () =>{
     const dispatch = useDispatch()
 
     useEffect(()=>{
-
+        const usuario = localStorage.getItem('usuario')
     },[])
 
     return {
