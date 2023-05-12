@@ -9,6 +9,8 @@ export const useCheckauth = () =>{
 
     useEffect(()=>{
         const usuario = localStorage.getItem('usuario')
+
+        localStorage.getItem('usuario') === null ? dispatch(logout()) : dispatch(login({...usuario}))
     },[])
 
     return {
