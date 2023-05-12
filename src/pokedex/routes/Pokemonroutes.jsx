@@ -7,6 +7,8 @@ export const Pokemonroutes = () => {
     <Routes>
         <Route path="pokemon" element={<Pokemon/>}></Route>
 
+        <Route path="pokemonshiny/:pokemon" element={<PokemonShiny/>}></Route> 
+
         <Route path="/*" element={<Navigate to="/pokemon"/>}></Route>
     </Routes>
   )
