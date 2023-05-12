@@ -11,6 +11,7 @@ export const useCheckauth = () =>{
         const usuario = localStorage.getItem('usuario')
 
         localStorage.getItem('usuario') === null ? dispatch(logout()) : dispatch(login({...usuario}))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     return {
