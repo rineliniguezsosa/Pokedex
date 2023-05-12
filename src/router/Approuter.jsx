@@ -6,7 +6,7 @@ export function Approuter() {
   return (
     <>
     <Routes>
-       {autenticado
+       {
        ?
        <Route path="/*" element={<Pokemonroutes/>}></Route>
        :
