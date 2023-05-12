@@ -14,6 +14,9 @@ export const authSlice = createSlice({
       state.email = payload.email;
       state.password = payload.password;
     },
+    logout:(state) =>{
+      state.status = 'sinautenticar'
+    }
   },
 })
 
