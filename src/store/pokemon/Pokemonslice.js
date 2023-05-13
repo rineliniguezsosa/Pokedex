@@ -4,7 +4,8 @@ import { createSlice } from '@reduxjs/toolkit'
 export const pokemonSlice = createSlice({
   name: 'pokemon',
   initialState:{
-    pokemones:[]
+    pokemones:[],
+    messagerror:null,
   },
   reducers: {
     increment: (state) => {
