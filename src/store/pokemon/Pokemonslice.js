@@ -8,12 +8,9 @@ export const pokemonSlice = createSlice({
     messagerror:null,
   },
   reducers: {
-    increment: (state) => {
-      state.counter += 1
+    savingpokemons: (state) => {
+      
     },
-    decrementby:(state,action) =>{
-        state.counter+=action.payload
-    }
   },
 })
 
