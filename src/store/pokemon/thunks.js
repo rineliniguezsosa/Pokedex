@@ -10,6 +10,7 @@ export const startfetchingpokeapi = (page) =>{
             resp.results.map(pokemonurl => urlpokemones.push(pokemonurl.url))
             const pokemoninfo = await Promise.all(urlpokemones.map(urlpokemones => fetch(urlpokemones)))
             const pokemoninfotojson = await Promise.all(pokemoninfo.map(urls => urls.json()))
+            dispatch(savingpokemons(pokemoninfotojson))
         } catch (error) {
             
         }
