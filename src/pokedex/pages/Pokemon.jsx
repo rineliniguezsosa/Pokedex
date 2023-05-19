@@ -53,7 +53,7 @@ export const Pokemon = () => {
                         <Tablecellinh><img alt="pokemon" src={pokemon.sprites.front_default}></img></Tablecellinh>
                         <Tablecellinh>{pokemon.types.map(tipo=>(<p key={tipo.slot}>{tipo.type.name}</p>))}</Tablecellinh>
                         <Tablecellinh>{pokemon.abilities.map(ability=>(<p key={ability.ability.slot}>{ability.ability.name}</p>))}</Tablecellinh>
-                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh><Shiny to={`/pokemonshiny/${pokemon.id}`}>Shyny</Shiny></Tablecellinh>
                     </tr>
                       ))
                     }
