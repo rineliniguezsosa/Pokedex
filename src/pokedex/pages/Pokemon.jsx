@@ -49,7 +49,7 @@ export const Pokemon = () => {
                     {pokemones.map(pokemon => (
                     <tr key={pokemon.order}>
                         <Tablecellinh>{pokemon.id}</Tablecellinh>
-                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh>{pokemon.name}</Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
