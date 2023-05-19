@@ -10,7 +10,7 @@ export const Pokemon = () => {
   const { pokemones } = useSelector(state => state.pokemon)
   const dispatch = useDispatch()
 
-  const [page,setPage] = useState(0)
+  const [page,setPage] = useState(5)
 
   useEffect(() => {
     dispatch(startfetchingpokeapi(page))
@@ -46,14 +46,17 @@ export const Pokemon = () => {
                     </tr>
                   </thead>
                   <tbody>
+                    {pokemones.map(pokemon => (
                     <tr>
-                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh></span></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                     </tr>
+                      ))
+                    }
                   </tbody>
                 </Table>
             </Childcontainer>
