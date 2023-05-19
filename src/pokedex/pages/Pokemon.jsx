@@ -10,7 +10,7 @@ export const Pokemon = () => {
   const { pokemones } = useSelector(state => state.pokemon)
   const dispatch = useDispatch()
 
-  const [page,setPage] = useState(5)
+  const [page,setPage] = useState(0)
 
   useEffect(() => {
     dispatch(startfetchingpokeapi(page))
