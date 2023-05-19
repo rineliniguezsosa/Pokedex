@@ -5,6 +5,7 @@ import { useForm } from "../../hooks"
 
 export const Pokemon = () => {
   const { form,onInputchange,onSubmitform } = useForm({pokemon:''})
+  const { pokemones } = useSelector(state => state.pokemon)
 
   return (
     <Pokemoncontainer>
