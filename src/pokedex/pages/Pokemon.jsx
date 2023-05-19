@@ -51,7 +51,7 @@ export const Pokemon = () => {
                         <Tablecellinh>{pokemon.id}</Tablecellinh>
                         <Tablecellinh>{pokemon.name}</Tablecellinh>
                         <Tablecellinh><img alt="pokemon" src={pokemon.sprites.front_default}></img></Tablecellinh>
-                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh>{pokemon.types.map(tipo=>(<p key={tipo.slot}>{tipo.type.name}</p>))}</Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                     </tr>
