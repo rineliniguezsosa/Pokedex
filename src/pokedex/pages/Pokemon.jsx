@@ -8,6 +8,7 @@ export const Pokemon = () => {
   const { form,onInputchange,onSubmitform } = useForm({pokemon:''})
   const { pokemones } = useSelector(state => state.pokemon)
 
+  const [page,setPage] = useState(0)
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
