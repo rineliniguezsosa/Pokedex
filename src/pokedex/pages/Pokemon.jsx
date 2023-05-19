@@ -1,3 +1,4 @@
+import { useSelector } from "react-redux"
 import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell,Tablecellinh   } from "../../assets"
 import { useForm } from "../../hooks"
 
@@ -45,7 +46,7 @@ export const Pokemon = () => {
                     </tr>
                   </tbody>
                 </Table>
-            </Childcontainer>   
+            </Childcontainer>
         </Pokedexcontainer>
     </Pokemoncontainer>
   )
