@@ -8,8 +8,8 @@ export const pokemonSlice = createSlice({
     messagerror:null,
   },
   reducers: {
-    savingpokemons: (state) => {
-      
+    savingpokemons: (state,{payload}) => {
+
     },
   },
 })
