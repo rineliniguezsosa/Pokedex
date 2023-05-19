@@ -2,6 +2,7 @@ import { useSelector } from "react-redux"
 import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell,Tablecellinh   } from "../../assets"
 import { useForm } from "../../hooks"
 import { useState,useEffect } from "react"
+import { startfetchingpokeapi } from "../../store"
 
 
 export const Pokemon = () => {
