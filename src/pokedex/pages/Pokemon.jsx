@@ -48,7 +48,7 @@ export const Pokemon = () => {
                   <tbody>
                     {pokemones.map(pokemon => (
                     <tr key={pokemon.order}>
-                        <Tablecellinh></span></Tablecellinh>
+                        <Tablecellinh>{pokemon.id}</Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
