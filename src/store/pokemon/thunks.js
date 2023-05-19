@@ -1,5 +1,5 @@
 
-export const startfetchingpokeapi = () =>{
+export const startfetchingpokeapi = (page) =>{
     return async(dispatch)=>{
         try {
             const urlpokemones = []
