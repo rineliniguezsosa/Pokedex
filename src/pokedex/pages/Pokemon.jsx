@@ -50,7 +50,7 @@ export const Pokemon = () => {
                     <tr key={pokemon.order}>
                         <Tablecellinh>{pokemon.id}</Tablecellinh>
                         <Tablecellinh>{pokemon.name}</Tablecellinh>
-                        <Tablecellinh></Tablecellinh>
+                        <Tablecellinh><img alt="pokemon" src={pokemon.sprites.front_default}></img></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
                         <Tablecellinh></Tablecellinh>
