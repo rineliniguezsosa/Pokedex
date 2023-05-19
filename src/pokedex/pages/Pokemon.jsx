@@ -13,7 +13,7 @@ export const Pokemon = () => {
   const [page,setPage] = useState(0)
 
   useEffect(() => {
-    
+    dispatch(startfetchingpokeapi(page))
   }, [page])
   
   return (
