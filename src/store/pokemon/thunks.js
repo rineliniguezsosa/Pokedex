@@ -1,3 +1,5 @@
+import { savingpokemons } from "./Pokemonslice"
+
 
 export const startfetchingpokeapi = (page) =>{
     return async(dispatch)=>{
