@@ -17,7 +17,7 @@ export const Pokemon = () => {
   }, [page])
 
   const Anterior = () =>{
-    
+    (page < 1) ? setPage(page) : setPage(page-5) //validaciones
   }
   
   return (
