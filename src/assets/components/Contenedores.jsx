@@ -29,12 +29,12 @@ export const Formcontainer = styled.div`
 
 export const Pokemoncontainer = styled(Formcontainer)`
     width:1363px;
-    height: 650px;    
+    height: 1200px;    
 `
 
 export const Pokedexcontainer = styled.div`
     width:1100px;
-    height:500px;
+    height:900px;
     border:1px yellow solid;
 `
 export const Childcontainer = styled.div`
