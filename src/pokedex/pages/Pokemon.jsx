@@ -60,6 +60,10 @@ export const Pokemon = () => {
                   </tbody>
                 </Table>
             </Childcontainer>
+            
+            <Buttoncontainer>
+                  
+            </Buttoncontainer>
         </Pokedexcontainer>
     </Pokemoncontainer>
   )
