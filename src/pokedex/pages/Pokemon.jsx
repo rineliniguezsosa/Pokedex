@@ -66,7 +66,7 @@ export const Pokemon = () => {
             </Childcontainer>
             
             <Buttoncontainer>
-                  <Btnpage onClick={Anterior}>Previous</Btnpage><Btnpage>Page: {page}</Btnpage>
+                  <Btnpage onClick={Anterior}>Previous</Btnpage><Btnpage onClick={Siguiente}>Page: {page}</Btnpage>
             </Buttoncontainer>
         </Pokedexcontainer>
     </Pokemoncontainer>
