@@ -15,6 +15,10 @@ export const Pokemon = () => {
   useEffect(() => {
     dispatch(startfetchingpokeapi(page))
   }, [page])
+
+  const Anterior = () =>{
+    
+  }
   
   return (
     <Pokemoncontainer>
