@@ -21,3 +21,10 @@ export const Buttoncuadricula = styled(Botones)`
   background-color: #FFFFFF;
   color: #47525E;
 `
+export const Btnpage = styled.button`
+  color:#8492A6;
+  border:1px #8492A6 solid;
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+`
