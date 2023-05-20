@@ -54,4 +54,5 @@ export const Buttoncontainer = styled.div`
     border:1px gray solid;
     display: flex;
     justify-content: center;
+    padding:10px;
 `
