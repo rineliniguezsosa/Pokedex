@@ -21,7 +21,7 @@ export const Pokemon = () => {
   }
 
   const Siguiente = () =>{
-    
+    (page === 1280) ? setPage(page): setPage(page+5) //limitando la busqueda de los pokemons ya que son 1280
   }
   
   return (
