@@ -27,4 +27,8 @@ export const Btnpage = styled.button`
   background-color: white;
   display: inline-block;
   padding: 10px;
+  &:hover {
+    background-color: #8492A6;
+    color:white;
+  }
 `
