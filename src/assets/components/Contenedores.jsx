@@ -49,3 +49,9 @@ export const Formbox = styled(Childcontainer)`
     justify-content:space-between;
     align-items:center;
 `
+export const Buttoncontainer = styled.div`
+    width:100%;
+    border:1px gray solid;
+    display: flex;
+    justify-content: center;
+`
