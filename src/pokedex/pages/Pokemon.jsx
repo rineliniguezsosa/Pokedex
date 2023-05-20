@@ -19,6 +19,10 @@ export const Pokemon = () => {
   const Anterior = () =>{
     (page < 1) ? setPage(page) : setPage(page-5) //validaciones
   }
+
+  const Siguiente = () =>{
+    
+  }
   
   return (
     <Pokemoncontainer>
