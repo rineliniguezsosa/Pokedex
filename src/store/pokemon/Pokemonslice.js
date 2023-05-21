@@ -18,4 +18,4 @@ export const pokemonSlice = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { savingpokemonlist } = pokemonSlice.actions
+export const { savingpokemonlist,savingpokemon } = pokemonSlice.actions
