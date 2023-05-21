@@ -1,7 +1,7 @@
 import { savingpokemons } from "./Pokemonslice"
 
 
-export const startfetchingpokeapi = (page) =>{
+export const startfetchingpokemonlist = (page) =>{
     return async(dispatch)=>{
         try {
             const urlpokemones = []
@@ -12,7 +12,7 @@ export const startfetchingpokeapi = (page) =>{
             const pokemoninfotojson = await Promise.all(pokemoninfo.map(urls => urls.json()))
             dispatch(savingpokemons(pokemoninfotojson))
         } catch (error) {
-            
+            console.log()
         }
     }
 }
