@@ -16,3 +16,9 @@ export const startfetchingpokemonlist = (page) =>{
         }
     }
 }
+
+export const fetchingpokemon = (pokemon) =>{
+    return async(dispatch)=>{
+
+    }
+}
