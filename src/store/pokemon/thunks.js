@@ -20,7 +20,7 @@ export const startfetchingpokemonlist = (page) =>{
 export const fetchingpokemon = (pokemon) =>{
     return async(dispatch)=>{
         try {
-            
+            const req = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
         } catch (error) {
             
         }
