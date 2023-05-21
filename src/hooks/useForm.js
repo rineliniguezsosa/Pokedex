@@ -1,12 +1,13 @@
 import { useState } from "react"
 import { useDispatch } from "react-redux"
+import { startfetchingpokeapi } from "../store"
 
 export const useForm = (initialForm = {}) =>{
     const [formState, setFormState] = useState(initialForm)
 
     const onInputchange = (event) =>{
         const {name,value} = event.target;
-        console.log(value)
+       
         setFormState({
             ...formState,
             [name]:value
