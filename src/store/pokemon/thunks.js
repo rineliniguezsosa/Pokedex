@@ -1,4 +1,4 @@
-import {  savingpokemonlist } from "./Pokemonslice"
+import {  savingpokemonlist,savingpokemon } from "./Pokemonslice"
 
 
 export const startfetchingpokemonlist = (page) =>{
