@@ -5,7 +5,7 @@ import { startfetchingpokeapi } from "../store"
 export const useForm = (initialForm = {}) =>{
     const [formState, setFormState] = useState(initialForm)
     const dispatch = useDispatch()
-    
+
     const onInputchange = (event) =>{
         const {name,value} = event.target;
        
@@ -19,6 +19,8 @@ export const useForm = (initialForm = {}) =>{
         event.preventDefault()
 
         if(formState.pokemon.trim().length < 1){ return; }
+        
+        dispatch(startfetchingpokeapi(formState)) //enviamos el pokemon
 
         event.target.reset();
     }
