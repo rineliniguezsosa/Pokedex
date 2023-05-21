@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useDispatch } from "react-redux"
-import { startfetchingpokeapi } from "../store"
+import { fetchingpokemon } from "../store"
 
 export const useForm = (initialForm = {}) =>{
     const [formState, setFormState] = useState(initialForm)
