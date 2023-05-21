@@ -1,4 +1,4 @@
-import { savingpokemons } from "./Pokemonslice"
+import {  savingpokemonlist } from "./Pokemonslice"
 
 
 export const startfetchingpokemonlist = (page) =>{
@@ -10,7 +10,7 @@ export const startfetchingpokemonlist = (page) =>{
             resp.results.map(pokemonurl => urlpokemones.push(pokemonurl.url))
             const pokemoninfo = await Promise.all(urlpokemones.map(urlpokemones => fetch(urlpokemones)))
             const pokemoninfotojson = await Promise.all(pokemoninfo.map(urls => urls.json()))
-            dispatch(savingpokemons(pokemoninfotojson))
+            dispatch(savingpokemonlist(pokemoninfotojson))
         } catch (error) {
             console.log()
         }
