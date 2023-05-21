@@ -4,7 +4,8 @@ import { startfetchingpokeapi } from "../store"
 
 export const useForm = (initialForm = {}) =>{
     const [formState, setFormState] = useState(initialForm)
-
+    const dispatch = useDispatch()
+    
     const onInputchange = (event) =>{
         const {name,value} = event.target;
        
