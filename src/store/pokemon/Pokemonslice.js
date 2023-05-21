@@ -11,6 +11,9 @@ export const pokemonSlice = createSlice({
     savingpokemonlist: (state,{payload}) => {
       state.pokemones = [...payload]
     },
+    savingpokemon:(state,{payload})=>{
+
+    }
   },
 })
 
