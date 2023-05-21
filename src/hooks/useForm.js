@@ -20,7 +20,7 @@ export const useForm = (initialForm = {}) =>{
 
         if(formState.pokemon.trim().length < 1){ return; }
         
-        dispatch(startfetchingpokeapi(formState)) //enviamos el pokemon
+        //dispatch(startfetchingpokeapi(formState)) //enviamos el pokemon
 
         event.target.reset();
     }
