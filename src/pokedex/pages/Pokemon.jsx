@@ -2,7 +2,7 @@ import { useSelector,useDispatch } from "react-redux"
 import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell,Tablecellinh,Shiny,Buttoncontainer,Btnpage   } from "../../assets"
 import { useForm } from "../../hooks"
 import { useState,useEffect } from "react"
-import { startfetchingpokeapi } from "../../store"
+import { startfetchingpokemonlist } from "../../store"
 
 
 export const Pokemon = () => {
@@ -13,7 +13,7 @@ export const Pokemon = () => {
   const [page,setPage] = useState(0)
 
   useEffect(() => {
-    dispatch(startfetchingpokeapi(page))
+    dispatch(startfetchingpokemonlist(page))
   }, [page])
 
   const Anterior = () =>{
