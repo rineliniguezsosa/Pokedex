@@ -12,7 +12,7 @@ export const pokemonSlice = createSlice({
       state.pokemones = [...payload]
     },
     savingpokemon:(state,{payload})=>{
-
+      state.pokemones = [...payload]
     }
   },
 })
