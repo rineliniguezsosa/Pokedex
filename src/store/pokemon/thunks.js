@@ -22,6 +22,7 @@ export const fetchingpokemon = ({pokemon}) =>{
         try {
             const req = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
             const resp = await req.json()
+            dispatch(savingpokemon(resp))
         } catch (error) {
             
         }
