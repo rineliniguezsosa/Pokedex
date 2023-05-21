@@ -8,11 +8,11 @@ export const pokemonSlice = createSlice({
     messagerror:null,
   },
   reducers: {
-    savingpokemons: (state,{payload}) => {
+    savingpokemonlist: (state,{payload}) => {
       state.pokemones = [...payload]
     },
   },
 })
 
 // Action creators are generated for each case reducer function
-export const { savingpokemons } = pokemonSlice.actions
+export const { savingpokemonlist } = pokemonSlice.actions
