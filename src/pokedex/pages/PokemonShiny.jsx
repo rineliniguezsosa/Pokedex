@@ -9,6 +9,7 @@ export const PokemonShiny = () => {
   const { pokemonId } = useParams()
   const dispatch = useDispatch()
   const { pokemones } = useSelector(state => state.pokemon)
+  console.log(pokemones)
   console.log(pokemonId)
 
   useEffect(() => {
