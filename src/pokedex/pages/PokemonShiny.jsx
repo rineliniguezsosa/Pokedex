@@ -6,6 +6,6 @@ export const PokemonShiny = () => {
   const { pokemonId } = useParams()
   console.log(pokemonId)
   return (
-    <div>Pokemoninfo</div>
+    <Pokemoncontainer>Pokemoninfo</Pokemoncontainer>
   )
 }
