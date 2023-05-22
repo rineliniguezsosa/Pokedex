@@ -9,6 +9,11 @@ export const PokemonShiny = () => {
   const { pokemonId } = useParams()
   const dispatch = useDispatch()
   console.log(pokemonId)
+
+  useEffect(() => {
+    dispatch(fetchingpokemon(pokemonId))
+  }, [])
+  
   return (
     <Pokemoncontainer>
       <Spritescontainer>
