@@ -57,5 +57,5 @@ export const Buttoncontainer = styled.div`
     padding:10px;
 `
 export const Spritescontainer = styled(Pokedexcontainer)`
-    width: 900px;
+    width: 800px;
 `
