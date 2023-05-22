@@ -56,3 +56,6 @@ export const Buttoncontainer = styled.div`
     justify-content: center;
     padding:10px;
 `
+export const Spritescontainer = styled(Pokedexcontainer)`
+    width: 900px;
+`
