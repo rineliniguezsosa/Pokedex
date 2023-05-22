@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import { Pokemoncontainer } from "../../assets"
 
 
 export const PokemonShiny = () => {
