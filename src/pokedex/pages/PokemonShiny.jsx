@@ -7,6 +7,7 @@ import { fetchingpokemon } from "../../store"
 
 export const PokemonShiny = () => {
   const { pokemonId } = useParams()
+  const dispatch = useDispatch()
   console.log(pokemonId)
   return (
     <Pokemoncontainer>
