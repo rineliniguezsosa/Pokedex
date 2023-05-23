@@ -1,3 +1,4 @@
+import { Table,Tablecell,Tablecellinh,Shiny } from "../../assets"
 
 
 export const PokemonList = () => {
