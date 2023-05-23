@@ -1,5 +1,5 @@
 import { useSelector,useDispatch } from "react-redux"
-import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Table,Tablecell,Tablecellinh,Shiny,Buttoncontainer,Btnpage   } from "../../assets"
+import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Buttoncontainer,Btnpage   } from "../../assets"
 import { useForm } from "../../hooks"
 import { useState,useEffect } from "react"
 import { startfetchingpokemonlist } from "../../store"
