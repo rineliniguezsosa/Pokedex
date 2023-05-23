@@ -41,7 +41,7 @@ export const Pokemon = () => {
             </Formbox>
 
             <Childcontainer>
-
+                <PokemonList></PokemonList>
             </Childcontainer>
             
             <Buttoncontainer>
