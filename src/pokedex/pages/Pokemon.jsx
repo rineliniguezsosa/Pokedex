@@ -3,7 +3,7 @@ import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,F
 import { useForm } from "../../hooks"
 import { useState,useEffect } from "react"
 import { startfetchingpokemonlist } from "../../store"
-
+import { PokemonList } from "../components/PokemonList"
 
 export const Pokemon = () => {
   const { mypokemon,onInputchange,onSubmitform } = useForm({pokemon:''})
