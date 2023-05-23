@@ -3,6 +3,7 @@ import { useSelector } from "react-redux"
 
 
 export const PokemonList = () => {
+  const { pokemones } = useSelector(state => state.pokemon)
   return (
     <Table>
         <thead>
