@@ -7,7 +7,6 @@ import { startfetchingpokemonlist } from "../../store"
 
 export const Pokemon = () => {
   const { mypokemon,onInputchange,onSubmitform } = useForm({pokemon:''})
-  const { pokemones } = useSelector(state => state.pokemon)
   const dispatch = useDispatch()
 
   const [page,setPage] = useState(0)
