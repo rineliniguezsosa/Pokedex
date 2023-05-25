@@ -5,7 +5,7 @@ export const pokemonSlice = createSlice({
   name: 'pokemon',
   initialState:{
     pokemonlist:[],
-    pokemon:[],
+    infopokemon:[],
     messagerror:null,
   },
   reducers: {
@@ -13,7 +13,7 @@ export const pokemonSlice = createSlice({
       state.pokemonlist = [...payload]
     },
     savingpokemon:(state,{payload})=>{
-      state.pokemon = [...payload]
+      state.infopokemon = [...payload]
     }
   },
 })
