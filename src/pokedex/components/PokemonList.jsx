@@ -3,7 +3,7 @@ import { useSelector } from "react-redux"
 
 
 export const PokemonList = () => {
-  const { pokemones } = useSelector(state => state.pokemon)
+  const { pokemonlist } = useSelector(state => state.pokemon)
   return (
     <Table>
         <thead>
@@ -17,7 +17,7 @@ export const PokemonList = () => {
         </tr>
         </thead>
         <tbody>
-        {pokemones.map(pokemon => (
+        {pokemonlist.map(pokemon => (
         <tr key={pokemon.order}>
             <Tablecellinh>{pokemon.id}</Tablecellinh>
             <Tablecellinh>{pokemon.name}</Tablecellinh>
