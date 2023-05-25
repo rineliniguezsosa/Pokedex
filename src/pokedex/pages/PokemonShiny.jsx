@@ -8,8 +8,8 @@ import { fetchingpokemon } from "../../store"
 export const PokemonShiny = () => {
   const { pokemonId } = useParams()
   const dispatch = useDispatch()
-  const { pokemones } = useSelector(state => state.pokemon)
-  console.log(pokemones)
+  const { infopokemon } = useSelector(state => state.pokemon)
+  console.log(infopokemon)
   console.log(pokemonId)
 
   useEffect(() => {
