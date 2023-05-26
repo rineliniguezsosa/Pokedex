@@ -19,7 +19,11 @@ export const PokemonShiny = () => {
   return (
     <Pokemoncontainer>
       <Spritescontainer>
-
+          {infopokemon.map(pokemon=>(
+            <>
+              <span key={pokemon.id}>{pokemon.name}</span>
+            </>
+          ))}
       </Spritescontainer>
     </Pokemoncontainer>
   )
