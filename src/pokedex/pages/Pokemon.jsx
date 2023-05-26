@@ -13,6 +13,7 @@ export const Pokemon = () => {
 
   useEffect(() => {
     dispatch(startfetchingpokemonlist(page))
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page])
 
   const Anterior = () =>{
