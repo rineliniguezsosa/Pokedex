@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import { Table,Tablecell,Tablecellinh } from '../../assets'
+import { Table,Tablecell,Tablecellinh,Shiny } from '../../assets'
 
 export const Searchpokemonlist = () => {
   const { infopokemon } = useSelector(state => state.pokemon)
