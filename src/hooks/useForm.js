@@ -20,7 +20,7 @@ export const useForm = (initialForm = {}) =>{
         
         if(pokemon.pokemon.trim().length < 1){ return; }
         
-        dispatch(fetchingpokemon(pokemon)) //enviamos el pokemon
+        dispatch(fetchingpokemon(pokemon.pokemon)) //enviamos el pokemon
 
         event.target.reset();
     }
