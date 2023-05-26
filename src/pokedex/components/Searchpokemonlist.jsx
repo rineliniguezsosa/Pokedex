@@ -16,7 +16,7 @@ export const Searchpokemonlist = () => {
         </tr>
         </thead>
         <tbody>
-        {pokemonlist.map(pokemon => (
+        {infopokemon.map(pokemon => (
         <tr key={pokemon.order}>
             <Tablecellinh>{pokemon.id}</Tablecellinh>
             <Tablecellinh>{pokemon.name}</Tablecellinh>
