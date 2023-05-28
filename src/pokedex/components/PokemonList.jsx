@@ -30,7 +30,7 @@ export const PokemonList = () => {
         }
         <tr>
             <Tablecellinh colSpan={6}>
-            
+                <Btnpage onClick={Anterior}>Previous</Btnpage><Btnpage onClick={Siguiente}>Next</Btnpage>
             </Tablecellinh>
         </tr>
         </tbody>
