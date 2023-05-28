@@ -24,7 +24,7 @@ export const fetchingpokemon = (pokemonId) =>{
             const resp = await req.json()
             dispatch(savingpokemon(resp))
         } catch (error) {
-            
+            const messagerror = 'No existen coincidencias :('
         }
     }
 }
