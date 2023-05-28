@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Buttoncontainer   } from "../../assets"
+import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula } from "../../assets"
 import { useForm } from "../../hooks"
 import { PokemonList } from "../components/PokemonList"
 import { Searchpokemonlist } from "../components/Searchpokemonlist"
