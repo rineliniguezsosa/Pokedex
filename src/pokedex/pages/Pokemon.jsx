@@ -12,8 +12,6 @@ export const Pokemon = () => {
   const { infopokemon } = useSelector(state => state.pokemon)
   const dispatch = useDispatch()
 
-  const [page,setPage] = useState(0)
-
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
