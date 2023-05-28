@@ -7,7 +7,7 @@ import { PokemonList } from "../components/PokemonList"
 
 export const Pokemon = () => {
   const { mypokemon,onInputchange,onSubmitform } = useForm({pokemon:''})
-  const { pokemonlist } = useSelector(state => state.pokemon)
+  const { infopokemon } = useSelector(state => state.pokemon)
   const dispatch = useDispatch()
 
   const [page,setPage] = useState(0)
