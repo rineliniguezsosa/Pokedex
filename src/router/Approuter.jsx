@@ -1,7 +1,7 @@
 import { Routes,Route,Navigate } from 'react-router-dom'
 import { Pokemonroutes } from '../pokedex/routes/Pokemonroutes'
 import { Loginroutes } from '../auth/routes/Loginroutes'
-import { useCheckauth } from '../hooks/useCheckauth'
+import { useCheckauth } from '../hooks'
 
 export function Approuter() {
   const { status } = useCheckauth()
