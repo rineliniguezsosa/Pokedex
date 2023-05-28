@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux"
 import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Buttoncontainer,Btnpage   } from "../../assets"
 import { useForm } from "../../hooks"
-import { useState,useEffect } from "react"
 import { startfetchingpokemonlist } from "../../store"
 import { PokemonList } from "../components/PokemonList"
 import { Searchpokemonlist } from "../components/Searchpokemonlist"
