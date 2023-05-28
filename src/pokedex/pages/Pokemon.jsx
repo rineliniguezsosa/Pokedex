@@ -1,4 +1,4 @@
-import { useSelector,useDispatch } from "react-redux"
+import { useSelector } from "react-redux"
 import { Pokemoncontainer,Pokedextitle,Pokedexcontainer,Childcontainer,Formbox,Form,Inputform,Botones,Buttoncuadricula,Buttoncontainer,Btnpage   } from "../../assets"
 import { useForm } from "../../hooks"
 import { useState,useEffect } from "react"
