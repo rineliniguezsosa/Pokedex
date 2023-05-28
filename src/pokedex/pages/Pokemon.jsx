@@ -19,10 +19,6 @@ export const Pokemon = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page])
 
-  const Anterior = () =>{
-    (page < 1) ? setPage(page) : setPage(page-5) //validaciones
-  }
-
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
