@@ -14,11 +14,6 @@ export const Pokemon = () => {
 
   const [page,setPage] = useState(0)
 
-  useEffect(() => {
-    dispatch(startfetchingpokemonlist(page))
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page])
-
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
