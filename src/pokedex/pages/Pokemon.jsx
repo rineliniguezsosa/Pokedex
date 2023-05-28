@@ -10,8 +10,7 @@ import { Searchpokemonlist } from "../components/Searchpokemonlist"
 export const Pokemon = () => {
   const { mypokemon,onInputchange,onSubmitform } = useForm({pokemon:''})
   const { infopokemon } = useSelector(state => state.pokemon)
-  const dispatch = useDispatch()
-
+  
   return (
     <Pokemoncontainer>
         <Pokedexcontainer>
