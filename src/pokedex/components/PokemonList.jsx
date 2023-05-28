@@ -6,6 +6,7 @@ import { usePokemonpage } from "../../hooks"
 
 export const PokemonList = () => {
   const { pokemonlist } = useSelector(state => state.pokemon)
+  const { Siguiente,Anterior} = usePokemonpage(0)
   const dispatch = useDispatch()
   return (
     <Table>
