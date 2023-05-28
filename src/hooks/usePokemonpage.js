@@ -11,6 +11,10 @@ export const usePokemonpage = (numberpage) =>{
         dispatch(startfetchingpokemonlist(page))
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [page])
+
+    const Anterior = () =>{
+        (page < 1) ? setPage(page) : setPage(page-5) //validaciones
+    }
     return {
         
     }
