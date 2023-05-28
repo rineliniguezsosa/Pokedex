@@ -28,6 +28,11 @@ export const PokemonList = () => {
         </tr>
             ))
         }
+        <tr>
+            <Tablecellinh colSpan={6}>
+            
+            </Tablecellinh>
+        </tr>
         </tbody>
     </Table>
   )
