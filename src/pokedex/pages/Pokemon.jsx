@@ -45,7 +45,7 @@ export const Pokemon = () => {
             </Formbox>
 
             <Childcontainer>
-                <PokemonList></PokemonList>
+                {infopokemon.length === 0 ? <PokemonList></PokemonList> : <Searchpokemonlist/>}
             </Childcontainer>
             
             <Buttoncontainer>
