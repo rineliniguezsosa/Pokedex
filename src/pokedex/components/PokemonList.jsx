@@ -5,6 +5,7 @@ import { useSelector,useDispatch } from "react-redux"
 
 export const PokemonList = () => {
   const { pokemonlist } = useSelector(state => state.pokemon)
+  const dispatch = useDispatch()
   return (
     <Table>
         <thead>
