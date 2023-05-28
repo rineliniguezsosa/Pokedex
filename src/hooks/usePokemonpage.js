@@ -4,6 +4,8 @@ import { startfetchingpokemonlist } from "../store"
 
 export const usePokemonpage = (numberpage) =>{
     const dispatch = useDispatch()
+
+    const [page,setPage] = useState(numberpage)
     return {
         
     }
