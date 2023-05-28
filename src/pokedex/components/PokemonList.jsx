@@ -1,5 +1,5 @@
 import { Table,Tablecell,Tablecellinh,Shiny, Btnpage } from "../../assets"
-import { useSelector } from "react-redux"
+import { useSelector,useDispatch } from "react-redux"
 
 
 export const PokemonList = () => {
