@@ -4,6 +4,8 @@ import { useForm } from "../../hooks"
 import { useState,useEffect } from "react"
 import { startfetchingpokemonlist } from "../../store"
 import { PokemonList } from "../components/PokemonList"
+import { Searchpokemonlist } from "../components/Searchpokemonlist"
+
 
 export const Pokemon = () => {
   const { mypokemon,onInputchange,onSubmitform } = useForm({pokemon:''})
