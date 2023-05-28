@@ -1,4 +1,4 @@
-import { Table,Tablecell,Tablecellinh,Shiny } from "../../assets"
+import { Table,Tablecell,Tablecellinh,Shiny, Btnpage } from "../../assets"
 import { useSelector } from "react-redux"
 
 
