@@ -30,9 +30,6 @@ export const Pokemon = () => {
                 {infopokemon.length === 0 ? <PokemonList></PokemonList> : <Searchpokemonlist/>}
             </Childcontainer>
             
-            <Buttoncontainer>
-                  
-            </Buttoncontainer>
         </Pokedexcontainer>
     </Pokemoncontainer>
   )
